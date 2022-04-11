@@ -65,7 +65,7 @@ function App() {
           <button onClick={() =>{
               setBall (ball + 0.1)
               
-            //   ball (score + 0.1)
+            //   ball (score + 0.10)
           }}>Add 1</button>
         </div>
           India {score>100 ? "Won" : "Lost"}
