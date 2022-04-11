@@ -15,24 +15,20 @@ function App() {
           <div>
             Score:{" "}
             <h1 className="scoreCount">
-                Score:{ score };
+                Score:{ score }
             </h1>
           </div>
           <div>
             Wicket:{" "}
             <h1 className="wicketCount">
-                Wicket:{ wicket };
+                Wicket:{ wicket }
             </h1>
           </div>
   
           <div>
-            Over:{ ball }
+            Over:{" "}
             <h1 className="overCount">
-              {
-                // Show Over here in the format: "over.ball" eg: 4.5 means 4th over and 5th ball
-                // if 1 more ball is thrown then over is now 5.0
-                // you have to write logic to form this string from current ball number.
-              }
+              Over:{ ball }
             </h1>
           </div>
         </div>
